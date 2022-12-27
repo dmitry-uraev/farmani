@@ -1,3 +1,7 @@
+"""
+Docstring
+"""
+
 from credentials import users
 from orders.order import Order, Status, OrdersManager
 from orders.places import AddressGenerator
