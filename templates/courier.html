@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="ru" >
+<head>
+  <meta charset="UTF-8">
+  <title>Courier</title>
+  <!-- подключаем стили -->
+    <link href="{{ url_for('static', filename='courier.css') }}" rel="stylesheet" type="text/css" />
+<table class='tsk-table'>
+   <tr class='tsk-thead'>
+      <td>Время заказа</td>
+      <td>Адрес доставки</td>
+      <td>Адрес аптеки</td>
+      <td>Код заказа</td>
+    </tr>
+    <tr class='tsk-tr'>
+      <td>Нет активного заказа</td>
+    </tr>
+    <form method="post">
+   <div class="Access">
+      <button>Взять заказ</button>
+   </div>
+    </form>
+   <div class="wrap">
+  <p class="messagestart">Fastmed.Курьер</p>
+</div>
+  </table>

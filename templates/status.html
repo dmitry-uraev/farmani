@@ -1,0 +1,32 @@
+<head>
+  <title>Status</title>
+
+  <!-- Styles -->
+  <link href='https://fonts.googleapis.com/css?family=Roboto:400,300,100' rel='stylesheet' type='text/css'>
+  <link href="{{ url_for('static', filename='status.css') }}" rel="stylesheet" type="text/css" />
+  <meta name="robots" content="noindex,follow" />
+</head>
+<div class="Order">
+  <p class="Text">Статус вашего заказа</p>
+   </div>
+<div class="breadcrumb flat">
+	<a href="#" class="active">Заказ принят</a>
+	<a href="#">Сбор заказа</a>
+	<a href="#">Доставка</a>
+	<a href="#">Заказ у вас</a>
+</div>
+<div>
+    <p>  </p>
+    <p>  </p>
+    <p>Заказ {{data[1]}}</p>
+    <p>Примерное время ожидания: {{data[8]}}</p>
+    <p>Совет по применению: {{data[9]}}</p>
+</div>
+<form action="" method="post">
+<div class="form">
+	<button>Вернуться к поиску</button>
+</div>
+</form>
+
+<!-- Prefixfree -->
+<script src="http://thecodeplayer.com/uploads/js/prefixfree-1.0.7.js" type="text/javascript" type="text/javascript"></script>

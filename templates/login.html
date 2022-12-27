@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="ru" >
+<head>
+  <meta charset="UTF-8">
+  <title>login</title>
+  <link href="{{ url_for('static', filename='loginstyle.css') }}" rel="stylesheet" type="text/css" />
+<div class="login-page">
+  <div class="form">
+    <form class="login-form" action="" method="post">
+	<p class="messagestart">Вход</p>
+      <input name="username" type="text" placeholder="username"/>
+      <input name="password" type="password" placeholder="password"/>
+      <button>login</button>
+    </form>
+  </div>
+</div>

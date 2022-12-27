@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="ru" xmlns="http://www.w3.org/1999/html">
+<head>
+  <meta charset="UTF-8">
+  <title>search</title>
+  <link href="{{ url_for('static', filename='searchstyle.css') }}" rel="stylesheet" type="text/css" />
+<div class="wrap">
+  <p class="messagestart">Fastmed</p>
+    <form action="" method="post">
+  <div class="search">
+      <input name="query" type="text" class="searchTerm" placeholder="Напишите название лекарства?">
+      <button type="submit" class="searchButton">Поиск</button>
+   </div>
+    </form>
+</div>
+<div class="geo">
+  <p class="Text">Нижний Новгород, ул Б. Печерская 25/12</p>
+</div>
+    <div class="drag_1" style="top: 40%">
+        <p class="Text">Ничего не найдено по заданному запросу!</p>
+    </div>
+</head>

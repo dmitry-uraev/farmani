@@ -1,0 +1,135 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+@import url(https://fonts.googleapis.com/css?family=Roboto:300);
+
+body{
+  background: #f2f2f2;
+  font-family: 'Open Sans', sans-serif;
+}
+.wrap .messagestart{
+  margin: 0 0 50ppx;
+  color: #43A047;
+  font-size: 36px;
+}
+.geo{
+  width: 30%;
+  position: absolute;
+  top: 10%;
+  left: 18%;
+  transform: translate(-50%, -50%);
+}
+.geo .Text{
+  margin: 0 0 0;
+  color: #b3b3b3;
+  font-size: 15px;
+}
+.search {
+  width: 100%;
+  position: absolute;
+  display: flex;
+  
+}
+
+.searchTerm {
+  width: 100%;
+  border: 3px solid #43A047;
+  border-right: none;
+  padding: 5px;
+  height: 20px;
+  border-radius: 5px 0 0 5px;
+  outline: none;
+  color: #9DBFAF;
+}
+
+.searchTerm:focus{
+  color: #43A047;
+}
+
+.searchButton {
+  width: 100px;
+  height: 36px;
+  border: 1px solid #43A047;
+  background: #43A047;
+  text-align: center;
+  color: #fff;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+/*Resize the wrap to see the search bar change!*/
+.wrap{
+  width: 30%;
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.drag_1{
+  width: 60%;
+  position: absolute;
+  left: 35%;
+  transform: translate(-50%, -50%);
+}
+.drag_1 button {
+  opacity: 0;
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+  outline: 0;
+  background: #4CAF50;
+  width: 20%;
+  border: 0;
+  padding: 15px;
+  color: #FFFFFF;
+  font-size: 14px;
+}
+.drag_1:hover button {
+    opacity: 1;
+    transition: opacity .3s;
+}
+
+.drag_2{
+  width: 30%;
+  position: absolute;
+  top: 50%;
+  left: 60%;
+  transform: translate(-50%, -50%);
+}
+.drag_2 button {
+  opacity: 0;
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+  outline: 0;
+  background: #4CAF50;
+  width: 20%;
+  border: 0;
+  padding: 15px;
+  color: #FFFFFF;
+  font-size: 14px;
+}
+.drag_2:hover button {
+    opacity: 1;
+    transition: opacity .3s;
+}
+.drag_3{
+  width: 30%;
+  position: absolute;
+  top: 50%;
+  left: 80%;
+  transform: translate(-50%, -50%);
+}
+.drag_3 button {
+  opacity: 0;
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+  outline: 0;
+  background: #4CAF50;
+  width: 20%;
+  border: 0;
+  padding: 15px;
+  color: #FFFFFF;
+  font-size: 14px;
+}
+.drag_3:hover button {
+    opacity: 1;
+    transition: opacity .3s;
+}
